@@ -59,12 +59,6 @@ CloudCraft_Static/
 After successful deployment, the following output is displayed:
 - 🌐 `endpoint`: The URL of the hosted static website.
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue.
-
-## 📜 License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## 🎉 Acknowledgments
 Special thanks to the Terraform and AWS communities for their excellent resources and support.
 
