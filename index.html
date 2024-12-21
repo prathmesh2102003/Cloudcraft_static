@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Static Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #84fab0, #8fd3f4);
+            color: #333;
+        }
+        header {
+            background: #2a2a72;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #3a3a89;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            background: #2a2a72;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background: #2a9d8f;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #264653;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        This is my static website created with terraform and hosted by S3
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Entry-level DevOps Engineer with a strong foundation in cloud platforms and automation. Recent 
+                Computer Science graduate skilled in AWS, CI/CD pipelines, and infrastructure as code (IaC). Dedicated 
+                to applying cloud computing and DevOps practices to optimize deployment processes and enhance 
+                system performance.</p>
+            <a href="#contact" class="button">Get in Touch</a>
+        </section>
+        <section id="Skills">
+            <h2>My Key Skills</h2>
+            <ul>
+                <li>Terraform</li>
+                <li>Kubernetes</li>
+                <li>Docker</li>
+                <li>Ansible</li>
+                <li>Jenkins/GiHub Actions</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:prathmeshamale646@gmail.com">prathmeshamale646@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/prathmesh2102003/prathmesh2102003.git">github.com/prathmesh2102003</a></p>
+            <p>Phone: +919022874211</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 UniqueWeb. All rights reserved.
+    </footer>
+</body>
+</html>
