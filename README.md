@@ -57,7 +57,7 @@ CloudCraft_Static/
 
 ## 📤 Outputs
 After successful deployment, the following output is displayed:
-- 🌐 `endpoint`: prathmesh2102003.s3-website-us-east-1.amazonaws.com
+- 🌐 `endpoint`: http://prathmesh2102003.s3-website-us-east-1.amazonaws.com
 
 ## 🎉 Acknowledgments
 Special thanks to the Terraform and AWS communities for their excellent resources and support.
